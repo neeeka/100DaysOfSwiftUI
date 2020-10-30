@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F027A07251C4C7C00C93772 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F027A06251C4C7C00C93772 /* DetailView.swift */; };
+		8F199F082522647200184363 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F199F072522647200184363 /* LocationFetcher.swift */; };
+		8F6974C6254823740057C7BB /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F6974C4254823740057C7BB /* DataModel.xcdatamodeld */; };
+		8F6974E0254865680057C7BB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6974DF254865680057C7BB /* MapView.swift */; };
+		8F6974E3254867230057C7BB /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6974E2254867230057C7BB /* FileManager.swift */; };
+		8F6974E925486F690057C7BB /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6974E725486F690057C7BB /* Contact+CoreDataClass.swift */; };
+		8F6974EA25486F690057C7BB /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6974E825486F690057C7BB /* Contact+CoreDataProperties.swift */; };
+		8F896997251EEF81001D2589 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F896996251EEF81001D2589 /* AddContactView.swift */; };
+		8FCD12D024B97AC400326EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD12CF24B97AC400326EC7 /* AppDelegate.swift */; };
+		8FCD12D224B97AC400326EC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD12D124B97AC400326EC7 /* SceneDelegate.swift */; };
+		8FCD12D424B97AC400326EC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD12D324B97AC400326EC7 /* ContentView.swift */; };
+		8FCD12D624B97AC600326EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCD12D524B97AC600326EC7 /* Assets.xcassets */; };
+		8FCD12D924B97AC600326EC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCD12D824B97AC600326EC7 /* Preview Assets.xcassets */; };
+		8FCD12DC24B97AC600326EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCD12DA24B97AC600326EC7 /* LaunchScreen.storyboard */; };
+		8FCD12E424B9E81700326EC7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD12E324B9E81700326EC7 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F027A06251C4C7C00C93772 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8F199F072522647200184363 /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		8F6974C5254823740057C7BB /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		8F6974DF254865680057C7BB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8F6974E2254867230057C7BB /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		8F6974E725486F690057C7BB /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		8F6974E825486F690057C7BB /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		8F896996251EEF81001D2589 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		8FCD12CC24B97AC400326EC7 /* 13-15 Challenge - MeetupContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "13-15 Challenge - MeetupContacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCD12CF24B97AC400326EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FCD12D124B97AC400326EC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8FCD12D324B97AC400326EC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8FCD12D524B97AC600326EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FCD12D824B97AC600326EC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FCD12DB24B97AC600326EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FCD12DD24B97AC600326EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCD12E324B9E81700326EC7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FCD12C924B97AC400326EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F6974CD25485E560057C7BB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8F6974E725486F690057C7BB /* Contact+CoreDataClass.swift */,
+				8F6974E825486F690057C7BB /* Contact+CoreDataProperties.swift */,
+				8F6974C4254823740057C7BB /* DataModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		8F6974DC2548620C0057C7BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD12D324B97AC400326EC7 /* ContentView.swift */,
+				8F896996251EEF81001D2589 /* AddContactView.swift */,
+				8F027A06251C4C7C00C93772 /* DetailView.swift */,
+				8F6974DF254865680057C7BB /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F73333D2549330B00C86BC1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8F199F072522647200184363 /* LocationFetcher.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8FCD12C324B97AC400326EC7 = {
+			isa = PBXGroup;
+			children = (
+				8FCD12CE24B97AC400326EC7 /* 13-15 Challenge - MeetupContacts */,
+				8FCD12CD24B97AC400326EC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FCD12CD24B97AC400326EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD12CC24B97AC400326EC7 /* 13-15 Challenge - MeetupContacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FCD12CE24B97AC400326EC7 /* 13-15 Challenge - MeetupContacts */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD12CF24B97AC400326EC7 /* AppDelegate.swift */,
+				8FCD12D124B97AC400326EC7 /* SceneDelegate.swift */,
+				8F6974CD25485E560057C7BB /* CoreData */,
+				8F6974DC2548620C0057C7BB /* View */,
+				8F73333D2549330B00C86BC1 /* Utils */,
+				8FCD12D524B97AC600326EC7 /* Assets.xcassets */,
+				8FCD12E324B9E81700326EC7 /* ImagePicker.swift */,
+				8F6974E2254867230057C7BB /* FileManager.swift */,
+				8FCD12DA24B97AC600326EC7 /* LaunchScreen.storyboard */,
+				8FCD12DD24B97AC600326EC7 /* Info.plist */,
+				8FCD12D724B97AC600326EC7 /* Preview Content */,
+			);
+			path = "13-15 Challenge - MeetupContacts";
+			sourceTree = "<group>";
+		};
+		8FCD12D724B97AC600326EC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD12D824B97AC600326EC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FCD12CB24B97AC400326EC7 /* 13-15 Challenge - MeetupContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCD12E024B97AC600326EC7 /* Build configuration list for PBXNativeTarget "13-15 Challenge - MeetupContacts" */;
+			buildPhases = (
+				8FCD12C824B97AC400326EC7 /* Sources */,
+				8FCD12C924B97AC400326EC7 /* Frameworks */,
+				8FCD12CA24B97AC400326EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-15 Challenge - MeetupContacts";
+			productName = "13-15 Challenge - MeetupContacts";
+			productReference = 8FCD12CC24B97AC400326EC7 /* 13-15 Challenge - MeetupContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FCD12C424B97AC400326EC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Neeka;
+				TargetAttributes = {
+					8FCD12CB24B97AC400326EC7 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 8FCD12C724B97AC400326EC7 /* Build configuration list for PBXProject "13-15 Challenge - MeetupContacts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FCD12C324B97AC400326EC7;
+			productRefGroup = 8FCD12CD24B97AC400326EC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FCD12CB24B97AC400326EC7 /* 13-15 Challenge - MeetupContacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FCD12CA24B97AC400326EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCD12DC24B97AC600326EC7 /* LaunchScreen.storyboard in Resources */,
+				8FCD12D924B97AC600326EC7 /* Preview Assets.xcassets in Resources */,
+				8FCD12D624B97AC600326EC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FCD12C824B97AC400326EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6974EA25486F690057C7BB /* Contact+CoreDataProperties.swift in Sources */,
+				8FCD12D024B97AC400326EC7 /* AppDelegate.swift in Sources */,
+				8F6974E0254865680057C7BB /* MapView.swift in Sources */,
+				8F896997251EEF81001D2589 /* AddContactView.swift in Sources */,
+				8F199F082522647200184363 /* LocationFetcher.swift in Sources */,
+				8F027A07251C4C7C00C93772 /* DetailView.swift in Sources */,
+				8FCD12E424B9E81700326EC7 /* ImagePicker.swift in Sources */,
+				8F6974E3254867230057C7BB /* FileManager.swift in Sources */,
+				8F6974C6254823740057C7BB /* DataModel.xcdatamodeld in Sources */,
+				8F6974E925486F690057C7BB /* Contact+CoreDataClass.swift in Sources */,
+				8FCD12D224B97AC400326EC7 /* SceneDelegate.swift in Sources */,
+				8FCD12D424B97AC400326EC7 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FCD12DA24B97AC600326EC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCD12DB24B97AC600326EC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FCD12DE24B97AC600326EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FCD12DF24B97AC600326EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FCD12E124B97AC600326EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"13-15 Challenge - MeetupContacts/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Z95Q296XK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "13-15 Challenge - MeetupContacts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeka.-3-15-Challenge---MeetupContacts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FCD12E224B97AC600326EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"13-15 Challenge - MeetupContacts/Preview Content\"";
+				DEVELOPMENT_TEAM = 2Z95Q296XK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "13-15 Challenge - MeetupContacts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeka.-3-15-Challenge---MeetupContacts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FCD12C724B97AC400326EC7 /* Build configuration list for PBXProject "13-15 Challenge - MeetupContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCD12DE24B97AC600326EC7 /* Debug */,
+				8FCD12DF24B97AC600326EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCD12E024B97AC600326EC7 /* Build configuration list for PBXNativeTarget "13-15 Challenge - MeetupContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCD12E124B97AC600326EC7 /* Debug */,
+				8FCD12E224B97AC600326EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F6974C4254823740057C7BB /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F6974C5254823740057C7BB /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 8F6974C5254823740057C7BB /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FCD12C424B97AC400326EC7 /* Project object */;
+}
