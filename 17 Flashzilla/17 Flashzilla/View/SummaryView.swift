@@ -14,7 +14,6 @@ struct SummaryView: View {
     let correctCards: Int
     let incorrectCards: Int
     let restartClosure: () -> Void
-   
     
     var body: some View {
         ZStack {
@@ -46,7 +45,6 @@ struct SummaryView: View {
                     .background(Color.white)
                     .foregroundColor(.black)
                     .clipShape(Capsule())
-                
             }
             .foregroundColor(.white)
         }

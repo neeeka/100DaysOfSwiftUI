@@ -138,7 +138,7 @@ struct ProspectsView: View {
             content.title = "Contact \(prospect.name)"
             content.subtitle = prospect.emailAddress
             content.sound = UNNotificationSound.default
-            
+            // will trigger at 9 a.m.
      //       var dateComponents = DateComponents()
      //       dateComponents.hour = 9
      //       let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)

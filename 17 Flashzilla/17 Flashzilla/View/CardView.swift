@@ -14,9 +14,6 @@ struct CardView: View {
     
     let card: Card
     
-    
- 
-    
     @State private var isShowingAnswer = false
     @State private var offset = CGSize.zero
     @State private var feedback = UINotificationFeedbackGenerator()

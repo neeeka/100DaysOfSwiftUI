@@ -75,7 +75,7 @@
 				8F86FD59246A57B600B904EF /* AppDelegate.swift */,
 				8F86FD5B246A57B600B904EF /* SceneDelegate.swift */,
 				8F86FD5D246A57B600B904EF /* ContentView.swift */,
-				8F86FD71246A5EB100B904EF /* Introduction */,
+				8F86FD71246A5EB100B904EF /* Intro */,
 				8F86FD5F246A57B800B904EF /* Assets.xcassets */,
 				8F86FD64246A57B800B904EF /* LaunchScreen.storyboard */,
 				8F86FD67246A57B800B904EF /* Info.plist */,
@@ -92,7 +92,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8F86FD71246A5EB100B904EF /* Introduction */ = {
+		8F86FD71246A5EB100B904EF /* Intro */ = {
 			isa = PBXGroup;
 			children = (
 				8F86FD6D246A5C6C00B904EF /* PulsingAnimation.swift */,
@@ -104,7 +104,7 @@
 				8FB4AD0A246BB0B800B588E1 /* ShowingAndHidingViews.swift */,
 				8FB4AD0C246BB2C000B588E1 /* CustomTransitions.swift */,
 			);
-			path = Introduction;
+			path = Intro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

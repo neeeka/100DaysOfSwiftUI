@@ -12,7 +12,6 @@ import SwiftUI
 struct Settings: View {
     @Binding var reviewUnknownCards: Bool
     @Environment(\.presentationMode) private var presentationMode
-  
     
     var body: some View {
         NavigationView {

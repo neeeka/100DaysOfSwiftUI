@@ -70,7 +70,7 @@
 			children = (
 				8FB4AD1A246E4BD500B588E1 /* AppDelegate.swift */,
 				8FB4AD1C246E4BD500B588E1 /* SceneDelegate.swift */,
-				8FB4AD34246E54EF00B588E1 /* Introduction */,
+				8FB4AD34246E54EF00B588E1 /* Intro */,
 				8FB4AD1E246E4BD500B588E1 /* ContentView.swift */,
 				8FB4AD3D2470195800B588E1 /* AddView.swift */,
 				8FB4AD20246E4BD700B588E1 /* Assets.xcassets */,
@@ -89,7 +89,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8FB4AD34246E54EF00B588E1 /* Introduction */ = {
+		8FB4AD34246E54EF00B588E1 /* Intro */ = {
 			isa = PBXGroup;
 			children = (
 				8FB4AD30246E53C700B588E1 /* ObservedObjectState.swift */,
@@ -98,7 +98,7 @@
 				8FB4AD39246FA1C500B588E1 /* StoringUserSettingsWithUserDefaults.swift */,
 				8FB4AD3B246FA42300B588E1 /* ArchivingWithCodable.swift */,
 			);
-			path = Introduction;
+			path = Intro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

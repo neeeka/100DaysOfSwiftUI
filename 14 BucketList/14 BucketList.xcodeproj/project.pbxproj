@@ -59,6 +59,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F1754AA254DD89C0002137F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F4D63FE24B18A5800745FDC /* ContentView.swift */,
+				8FCD125424B2DDC300326EC7 /* EditView.swift */,
+				8F4D641B24B1C0C700745FDC /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F1754AC254DD8B10002137F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD125224B2DBAA00326EC7 /* MKPointAnnotation-ObservableObject.swift */,
+				8FCD125824B2FAAE00326EC7 /* MKPointAnnotation-Codable.swift */,
+				8FCD125624B2E23300326EC7 /* Result.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8F4D63EE24B18A5800745FDC = {
 			isa = PBXGroup;
 			children = (
@@ -81,12 +101,8 @@
 				8F4D641224B18EC300745FDC /* Intro */,
 				8F4D63FA24B18A5800745FDC /* AppDelegate.swift */,
 				8F4D63FC24B18A5800745FDC /* SceneDelegate.swift */,
-				8F4D63FE24B18A5800745FDC /* ContentView.swift */,
-				8FCD125624B2E23300326EC7 /* Result.swift */,
-				8FCD125224B2DBAA00326EC7 /* MKPointAnnotation-ObservableObject.swift */,
-				8FCD125424B2DDC300326EC7 /* EditView.swift */,
-				8FCD125824B2FAAE00326EC7 /* MKPointAnnotation-Codable.swift */,
-				8F4D641B24B1C0C700745FDC /* MapView.swift */,
+				8F1754AA254DD89C0002137F /* Views */,
+				8F1754AC254DD8B10002137F /* Model */,
 				8F4D640024B18A5B00745FDC /* Assets.xcassets */,
 				8F4D640524B18A5B00745FDC /* LaunchScreen.storyboard */,
 				8F4D640824B18A5B00745FDC /* Info.plist */,

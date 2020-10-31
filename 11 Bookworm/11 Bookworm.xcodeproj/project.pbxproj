@@ -51,6 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F2E7A5C254D2DD0003A092C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE458B249B1FD2006D2278 /* ContentView.swift */,
+				8FDE45A6249B9F74006D2278 /* EmojiRatingView.swift */,
+				8FDE45A2249B610C006D2278 /* AddBookView.swift */,
+				8FDE45A4249B9CFC006D2278 /* RatingView.swift */,
+				8FDE45A8249C71DA006D2278 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8FDE4578249B1FD2006D2278 = {
 			isa = PBXGroup;
 			children = (
@@ -73,11 +85,7 @@
 				8FDE459F249B2750006D2278 /* Intro */,
 				8FDE4584249B1FD2006D2278 /* AppDelegate.swift */,
 				8FDE4586249B1FD2006D2278 /* SceneDelegate.swift */,
-				8FDE458B249B1FD2006D2278 /* ContentView.swift */,
-				8FDE45A6249B9F74006D2278 /* EmojiRatingView.swift */,
-				8FDE45A2249B610C006D2278 /* AddBookView.swift */,
-				8FDE45A4249B9CFC006D2278 /* RatingView.swift */,
-				8FDE45A8249C71DA006D2278 /* DetailView.swift */,
+				8F2E7A5C254D2DD0003A092C /* Views */,
 				8FDE458D249B1FD4006D2278 /* Assets.xcassets */,
 				8FDE4592249B1FD4006D2278 /* LaunchScreen.storyboard */,
 				8FDE4595249B1FD4006D2278 /* Info.plist */,

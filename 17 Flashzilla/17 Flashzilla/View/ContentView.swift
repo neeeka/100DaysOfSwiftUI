@@ -8,8 +8,6 @@
 
 import SwiftUI
 
-
-
 enum ActiveSheet {
     case settingsScreen, editScreen
 }

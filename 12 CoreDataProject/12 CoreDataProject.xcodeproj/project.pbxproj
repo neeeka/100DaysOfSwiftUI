@@ -110,7 +110,7 @@
 		8FDE45B5249F1456006D2278 /* 12 CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
-				8FDE45D5249F1E9C006D2278 /* Introduction */,
+				8FDE45D5249F1E9C006D2278 /* Intro */,
 				8FDE45B6249F1456006D2278 /* AppDelegate.swift */,
 				8FDE45B8249F1456006D2278 /* SceneDelegate.swift */,
 				8FDE45BD249F1456006D2278 /* ContentView.swift */,
@@ -131,7 +131,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8FDE45D5249F1E9C006D2278 /* Introduction */ = {
+		8FDE45D5249F1E9C006D2278 /* Intro */ = {
 			isa = PBXGroup;
 			children = (
 				8F4D6385249F5A0C00745FDC /* DynamicallyFiltering */,
@@ -141,7 +141,7 @@
 				8F4D638C24A06BD300745FDC /* OneToManyRelationships */,
 				8FDE45D6249F48CE006D2278 /* FilteringFetchRequestUsingNSPredicate.swift */,
 			);
-			path = Introduction;
+			path = Intro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

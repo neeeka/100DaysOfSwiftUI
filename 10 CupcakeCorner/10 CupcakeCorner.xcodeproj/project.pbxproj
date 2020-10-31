@@ -49,6 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F2E7A57254D2AF0003A092C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F61E91D247FA198007A2C6E /* ContentView.swift */,
+				8F965ABB2487E44200C1EC46 /* AddressView.swift */,
+				8F965ABD2487E63700C1EC46 /* CheckoutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F2E7A59254D2AF7003A092C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F965AB92487DB9600C1EC46 /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8F61E90D247FA198007A2C6E = {
 			isa = PBXGroup;
 			children = (
@@ -71,10 +89,8 @@
 				8F61E919247FA198007A2C6E /* AppDelegate.swift */,
 				8F61E91B247FA198007A2C6E /* SceneDelegate.swift */,
 				8F965AB624875B9400C1EC46 /* Intro */,
-				8F61E91D247FA198007A2C6E /* ContentView.swift */,
-				8F965AB92487DB9600C1EC46 /* Order.swift */,
-				8F965ABB2487E44200C1EC46 /* AddressView.swift */,
-				8F965ABD2487E63700C1EC46 /* CheckoutView.swift */,
+				8F2E7A57254D2AF0003A092C /* Views */,
+				8F2E7A59254D2AF7003A092C /* Model */,
 				8F61E91F247FA19A007A2C6E /* Assets.xcassets */,
 				8F61E924247FA19A007A2C6E /* LaunchScreen.storyboard */,
 				8F61E927247FA19A007A2C6E /* Info.plist */,
