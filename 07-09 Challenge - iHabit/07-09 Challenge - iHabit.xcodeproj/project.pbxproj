@@ -43,6 +43,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F1754B2254E7BA60002137F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FD3BC7E247D02E2004B11CA /* ContentView.swift */,
+				8F61E90B247F7209007A2C6E /* AddHabit.swift */,
+				8F61E92D2480C313007A2C6E /* EditHabit.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F1754B3254E7BBB0002137F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FD3BC8E247E1DD1004B11CA /* Habit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8FD3BC6E247D02E2004B11CA = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +82,8 @@
 			children = (
 				8FD3BC7A247D02E2004B11CA /* AppDelegate.swift */,
 				8FD3BC7C247D02E2004B11CA /* SceneDelegate.swift */,
-				8FD3BC7E247D02E2004B11CA /* ContentView.swift */,
-				8FD3BC8E247E1DD1004B11CA /* Habit.swift */,
-				8F61E90B247F7209007A2C6E /* AddHabit.swift */,
-				8F61E92D2480C313007A2C6E /* EditHabit.swift */,
+				8F1754B3254E7BBB0002137F /* Model */,
+				8F1754B2254E7BA60002137F /* Views */,
 				8FD3BC80247D02E3004B11CA /* Assets.xcassets */,
 				8FD3BC85247D02E3004B11CA /* LaunchScreen.storyboard */,
 				8FD3BC88247D02E3004B11CA /* Info.plist */,

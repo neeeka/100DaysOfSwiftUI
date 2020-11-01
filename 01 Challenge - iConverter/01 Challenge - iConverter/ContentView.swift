@@ -12,8 +12,8 @@ struct ContentView: View {
     
     @State private var chosenConversion = 0
     @State private var inputNumber = ""
-    @State private var inputMetrics = 3
-    @State private var outputMetrics = 3
+    @State private var inputMetrics = 1
+    @State private var outputMetrics = 1
     @State private var result = ""
     
     let conversionArray = ["🌡", "📐", "⏰", "🥛"]

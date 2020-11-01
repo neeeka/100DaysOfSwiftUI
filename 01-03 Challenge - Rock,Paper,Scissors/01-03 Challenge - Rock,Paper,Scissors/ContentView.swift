@@ -27,7 +27,7 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 20) {
             Text(emojiShown(currentChoice))
-                .font(.system(size: 40))
+                .font(.system(size: 60))
             VStack {
                 HStack {
                     Spacer()

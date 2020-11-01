@@ -35,7 +35,6 @@ struct EditHabit: View {
             self.currentIndex = index
                 self.habits.activities[self.currentIndex] = Activity(title: self.newTitle, description: self.newDescription, completed: self.completionAmount)
             }
-           
             
         })
         .navigationBarTitle(habit.title)
